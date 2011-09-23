@@ -1,3 +1,4 @@
+SUBDIRS = lib src
 dist_doc_DATA = README
-SUBDIRS = src
 prefix=/usr
+ACLOCAL_AMFLAGS=-I m4
